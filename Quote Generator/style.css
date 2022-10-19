@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+/*google font: bitter*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #1C6B9E;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%231C6B9E' width='11' height='11'/%3E%3Crect fill='%23186ea0' x='10' width='11' height='11'/%3E%3Crect fill='%231470a1' y='10' width='11' height='11'/%3E%3Crect fill='%230f73a2' x='20' width='11' height='11'/%3E%3Crect fill='%230a76a4' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%230578a5' y='20' width='11' height='11'/%3E%3Crect fill='%23017ba6' x='30' width='11' height='11'/%3E%3Crect fill='%23007da7' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%230080a8' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%230082a9' y='30' width='11' height='11'/%3E%3Crect fill='%230085aa' x='40' width='11' height='11'/%3E%3Crect fill='%230087aa' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23008aab' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23038cab' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23088fac' y='40' width='11' height='11'/%3E%3Crect fill='%230e91ac' x='50' width='11' height='11'/%3E%3Crect fill='%231494ad' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%231996ad' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%231e99ad' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23239bae' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23289dae' y='50' width='11' height='11'/%3E%3Crect fill='%232da0ae' x='60' width='11' height='11'/%3E%3Crect fill='%2332a2ae' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%2337a4ae' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%233ba7ae' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%2340a9ae' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%2345abae' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%2349aeae' x='70' width='11' height='11'/%3E%3Crect fill='%234eb0ae' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2353b2ae' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2357b4ae' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%235cb7ae' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2361b9ae' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2365bbaf' x='80' width='11' height='11'/%3E%3Crect fill='%236abdaf' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%236fbfaf' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2373c1af' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2378c3af' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%237dc6af' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%2381c8af' x='90' width='11' height='11'/%3E%3Crect fill='%2386caaf' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%238bccb0' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%238fceb0' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%2394d0b0' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%2399d2b1' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%239dd4b1' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23a2d6b2' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23a7d8b2' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23acdab3' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23b0dbb4' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23b5ddb4' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23badfb5' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23bee1b6' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23c3e3b7' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23c8e5b8' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23cce7b9' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23d1e9bb' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23d6eabc' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23daecbd' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23DFEEBF' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: #000;
+    font-family: Montserrat, sans-serif;  /*Bitter, serif*/
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quote-container {
+    width: auto;
+    max-width: 900px;
+    padding: 20px 30px;
+    border-radius: 6px;
+    background-color: rgba(164, 219, 231, 0.4);
+    box-shadow: 0 8px 10px 2px rgba(31, 0, 104, 0.2);
+}   
+
+.quote-text {
+    font-size: 2.75rem;
+}
+
+.long-quote {
+    font-size: 1.75rem;
+}
+
+.fa-quote-left {
+    font-size: 5rem;
+}
+
+.fa-quote-right {
+    font-size: 5rem;
+}
+
+.quote-author {
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+    box-shadow: 0.2rem 0.2rem rgba(31, 0, 104, 0.35);
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(164, 219, 231, 0.4);
+}
+
+.twitter-button:hover {
+    color: #38a1f3;
+}
+
+.fa-twitter {
+    font-size: 1.5rem;
+}
+
+/* Loader */
+/*.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #333;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Media Query Tablet or Smaller */
+@media screen and (max-width:1000px) {
+    .quote-container {
+        margin: auto 10px;
+    }
+
+    .quote-text {
+        font-size: 2.5rem;
+    }
+}

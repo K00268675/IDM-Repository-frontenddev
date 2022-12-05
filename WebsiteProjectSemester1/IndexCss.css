@@ -1,0 +1,167 @@
+body{
+  font-family:"Fjord", 'Times New Roman', Times, serif ;
+  background-color  : #161925;
+  color: #cbf7ed;
+}
+
+.sidebar {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; 
+  padding-top: 60px;
+  transition: 0.5s; 
+}
+
+/* sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/*mouse over the nav links, change color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  width: fit-content;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; 
+  padding: 20px;
+
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+#NavBar li{
+	display:inline;
+	float: right;
+  
+}
+
+#NavBar a{
+    float:right;
+		display: block;
+		padding: 20px;
+		background-color: #406e8e;
+  }
+
+#NavBar ul{
+  display: flex;
+  width: 1920px;
+  float: right;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #23395b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#NavBar li a{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+#NavBar{
+  display: flex;
+}
+
+#NavBar li a:hover {
+  background-color: #111;
+}
+#NavBar img{
+  width: fit-content;
+  height: 45px;
+
+}
+
+#Sidebar ul{
+  list-style-type: none;
+}
+
+#Sidebar{
+  width: 500px;
+  display: flex;
+  float: right;
+  font-size: 30px;
+  padding-right: 100px;
+  color: white;
+  
+}
+
+#Sidebar a{
+  text-decoration: none;
+  color: white;
+  font-family:"Fjord One", 'Times New Roman', Times, serif ;
+  width: fit-content;
+}
+
+#Sidebar img{
+  width: 350px;
+  height: 100px;
+  
+}
+
+#FlexboxArticles{
+  display: inline-block;
+  display: flex;
+  
+
+}
+
+#FlexboxArticles img{
+  display: -ms-inline-flexbox, flex;
+  width: 300px;
+  height: 500px;
+  
+  margin: 50px;
+}
+
+#FlexboxArticles p{
+  display: block;
+}

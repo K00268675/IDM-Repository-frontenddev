@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Fjord",Arial, sans-serif;
+    padding: 10px;
+    background: #161925;
+  }
+  
+  /* Header*/
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #161925;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .card h2{
+    text-decoration: none;
+    color: #111;
+  }
+  
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    height: 75%;
+  }
+  
+   .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #161925;
+    padding-left: 20px;
+  }
+  .Image1 >img {
+    background-color: #aaa;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    object-fit: cover;
+  }
+  .Image {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+.Image img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.Image > img{
+    background-color: #aaa;
+    max-width: inherit;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    object-fit: cover;
+  }
+
+  /* card effect, background for articles and such */
+  .card {
+    width: calc(90% - 5px);
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .card #MainImage{
+    width: 1285px;
+    height: 165px;
+    display: flex;
+  }
+  
+  /* Clearing floating stuff */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+  }
+  
+  /* sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /*mouse over the nav links, change color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: fit-content;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; 
+    padding: 20px;
+  
+  }
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #406e8e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #8ea8c3;
+  }
+  
+  
+  .LoginForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

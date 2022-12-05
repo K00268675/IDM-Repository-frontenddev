@@ -1,0 +1,123 @@
+body {
+font-family:sans-serif;
+width: 1200px;
+border: 3px solid steelblue;
+margin: 0 auto;
+padding: 0;
+
+}
+/* section section*/
+section{
+    width: 550px;
+    float: left;
+    padding: 30px 30px;
+    background-color: white;
+
+}
+
+section h1{
+    font-size: 35px;
+
+
+}   
+
+section h2{
+    font-size: 25px;
+
+}
+
+section h3 a{
+    color: maroon;
+}
+
+section h3 a:hover{
+    color: steelblue;
+}
+
+/* header section*/
+header h1 {
+ font-family: fantasy;
+ color: steelblue;
+ text-indent: 20px;
+ text-shadow: 2px .05px steelblue;
+ font-size: 50px;
+}
+
+header{
+    background-image: linear-gradient( white,lightsteelblue);
+}
+
+header h3{
+
+    text-indent: 20px;
+    font-size: x-large;
+}
+
+header h2{
+    font-size: 30px;
+
+}
+
+header img {
+    
+    float: left ;
+}
+
+/* column1 */
+
+#column1 ul a {
+   
+color: steelblue;
+
+}
+
+#column1{
+    float: left;
+    width: 250px;
+    padding: 25px 0 0 30px;
+}
+
+#column1 h2 {
+    color: maroon;
+    font-size: 130%;
+    margin-bottom: 8px;
+
+}
+
+#column1 ul{
+    line-height: 1.5;
+    margin: 0;
+}
+
+#column1 a:link #column1 a:visited{
+    color: steelblue;
+}
+
+#column1 a:hover #column a:focus{
+    color: maroon;
+}
+
+/* column 2 area */
+
+#column2{
+    float: right;
+    width: 250px;
+    padding: 25px 0 0 30px;
+}
+
+/* footer area */
+
+footer p{
+
+    font-size: small;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: steelblue;
+    color: white;
+    padding: 15px 30px; 
+    clear:both;
+
+}
